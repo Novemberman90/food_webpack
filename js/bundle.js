@@ -703,7 +703,7 @@ __webpack_require__.r(__webpack_exports__);
       }
     }
 
-    setClock(id, deadLine);
+    setClock(id, '31-12-2024');
   }
   
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (timer);
