@@ -14,7 +14,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
   tabs('.tabheader__item', '.tabcontent', '.tabheader__items', 'tabheader__item_active' ); 
   modal('[data-modal]', '.modal', modalTimerId); 
-  timer('.timer', '2020-06-11'); // '.timer' - это элемент на странице и id в модуле, а '2020-06-11' - deadLine
+  timer('.timer', '2024-12-31'); // '.timer' - это элемент на странице и id в модуле, а '2020-06-11' - deadLine
   cards(); 
   calc(); 
   forms('form', modalTimerId); // сюда тоже надо передать modalTimerId т.к. он содержит обнуление таймера. А по скольку в форме тоже открывается модальне окно и чтобы таймер не начал произвольно работать, то нужно в его туда передать в качестве аргумента
